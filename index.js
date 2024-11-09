@@ -192,5 +192,7 @@ async function main() {
 }
 
 main().catch((error) => {
+
+  // Tui thêm dòng này để xem Github Action chạy như thế nào
   logger.error("Error during execution details: ", error);
 });
