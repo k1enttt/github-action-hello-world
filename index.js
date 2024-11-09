@@ -194,5 +194,6 @@ async function main() {
 main().catch((error) => {
 
   // Tui thêm dòng này để xem Github Action chạy như thế nào
+  // Dòng comment được viết ở nhánh Test
   logger.error("Error during execution details: ", error);
 });
